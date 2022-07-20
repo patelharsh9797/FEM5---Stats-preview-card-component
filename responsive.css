@@ -1,0 +1,29 @@
+@media screen and (max-width:375px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 90vw;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .left {
+        width: 100%;
+        text-align: center;
+        padding: 4rem 2rem;
+    }
+
+    .description {
+        padding: 0 0.5rem;
+        margin-right: 0rem;
+    }
+
+    .card_r_footer {
+        /* margin-top: 6rem; */
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
